@@ -552,14 +552,8 @@ export const SignInPage = ({ className, onSubmit, loading = false }: SignInPageP
           </div>
 
           {/* Right side: branding (only on large screens) */}
-          <div className="hidden lg:flex flex-1 flex-col justify-center px-12 xl:px-20">
-            <div className="max-w-lg space-y-6">
-              <div
-                className="inline-flex h-16 w-16 rounded-2xl items-center justify-center"
-                style={{ background: "var(--gradient-primary)", boxShadow: "var(--shadow-glow)" }}
-              >
-                <MessageCircle className="h-8 w-8 text-primary-foreground" />
-              </div>
+          <div className="hidden lg:flex flex-1 flex-col justify-center px-12 xl:px-20 -mt-25">                                                           
+            <div className="max-w-lg space-y-6"> 
               <h2 className="text-4xl xl:text-5xl font-bold leading-tight tracking-tight text-foreground">
                 Automação inteligente de <span className="glow-text text-primary">WhatsApp</span>
               </h2>
